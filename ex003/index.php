@@ -15,9 +15,22 @@
         // $v = 95.4;
         // var_dump($v);
 
-        $num = (float) "950"; // coersão - forçar a ser um tipo específico
-        // echo "O valor é $num";
-        var_dump($num);
+        // $num = (float) "950"; // coersão - forçar a ser um tipo específico
+        // // echo "O valor é $num";
+        // var_dump($num);
+
+        // $casado = true;
+        // //var_dump($casado);
+        // print "O valor para casado é $casado";
+
+        // $vet = [6,2.5,"Maria",9,3,5];
+        // var_dump($vet);
+
+        class pessoa{
+            private string $nome;
+        }
+        $p = new Pessoa;
+        var_dump($p);
 
     ?>
 </body>
